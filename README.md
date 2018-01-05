@@ -2,6 +2,11 @@
 
 > 开放平台
 
+使用步骤
+1.创建mongodb
+2.使用 npm run server 运行node+express后台服务
+3.使用 npm run dev 执行vue
+
 ## Build Setup
 
 ``` bash
