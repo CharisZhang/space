@@ -1,3 +1,15 @@
-body{
-	margin: 0
+html, body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	color: #323341;
+}
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
 }

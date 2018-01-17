@@ -1,15 +1,15 @@
 <template>
-	<div class="sort">
+	<div class="signup">
 		{{ msg }}
 	</div>
 </template>
 
 <script>
 export default {
-  name: 'sort',
+  name: 'signup',
   data () {
     return {
-      msg: 'sort'
+      msg: '注册'
     }
   }
 }

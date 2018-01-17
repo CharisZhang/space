@@ -13,7 +13,7 @@ module.exports = {
         historyApiFallback: true,
         noInfo: true,
         proxyTable: {
-            '/': {
+            '/api': {
                 target: 'http://localhost:3000/'
             }
         },
