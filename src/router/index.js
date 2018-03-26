@@ -12,6 +12,7 @@ Vue.use(Router)
 
 const routes = [
     {path: '/', component: Home},
+    {path: '/home', component: Home},
     {path: '/sort', component: Sort},
     {path: '/add', component: Add},
     {path: '/find', component: Find},
@@ -21,6 +22,5 @@ const routes = [
 ]
 
 export default new Router({
-	mode: 'history',
 	routes: routes
 })
